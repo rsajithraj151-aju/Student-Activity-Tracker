@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#1a0b2e;
+}
+
+.container{
+    width:90%;
+    max-width:900px;
+    margin:30px auto;
+}
+
+h1{
+    text-align:center;
+    color:#ffd700;
+}
+
+p{
+    text-align:center;
+    color:#555;
+    margin:15px 0 25px;
+}
+
+.student{
+    background:#fff;
+    margin-bottom:15px;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 3px 8px rgba(0,0,0,.2);
+}
+
+.header{
+    background:#7b2cbf;
+    color:#fff;
+    padding:15px;
+    cursor:pointer;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.header:hover{
+    background:#4b0082;
+}
+
+.content{
+    display:none;
+    padding:15px;
+    background:#faf8ff;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th{
+    background:#fdf6f2;
+    color:white;
+    padding:10px;
+}
+
+td{
+    padding:10px;
+    border:1px solid #ddd;
+    text-align:center;
+}
+
+.completed{
+    color:green;
+    font-weight:bold;
+}
+
+.pending{
+    color:red;
+    font-weight:bold;
+}
+
+button{
+    background:#6a0dad;
+    color:white;
+    border:none;
+    padding:8px 15px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#4b0082;
+}
+
+button:disabled{
+    background:gray;
+}
+
+.progress{
+    margin-top:10px;
+    text-align:right;
+    font-weight:bold;
+    color:#6a0dad;
+}
